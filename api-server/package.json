@@ -1,0 +1,26 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-ecs": "^3.758.0",
+    "@clickhouse/client": "^1.10.1",
+    "@prisma/client": "^6.4.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "ioredis": "^5.5.0",
+    "kafkajs": "^2.2.4",
+    "prisma": "^6.4.1",
+    "random-word-slugs": "^0.1.7",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0",
+    "zod": "^3.24.2"
+  }
+}
